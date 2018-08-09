@@ -1,0 +1,71 @@
+body {
+
+	margin: 0;
+
+}
+
+.col {
+
+	padding-right: 0.5%;
+
+}
+
+.textarea {
+
+	resize: none;
+	margin: 0;
+	height: 79vh;
+	border-radius: 1%;
+	font-size: 15px;
+
+}
+
+iframe {
+
+	height: 79vh;
+	width: 100%;
+	border: 1px dashed black;
+	border-radius: 1%;
+}
+
+.hidden {
+
+	display: none;
+
+}
+
+.ace_editor.fullScreen {
+
+    height: auto;
+    width: auto;
+    border: 0;
+    margin: 0;
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+}
+
+.fullScreen {
+    overflow: hidden
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.8);
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(100, 100, 100, 0.4);
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="https://ace.c9.io/build/src/ace.js"></script>
+    <script src="https://ace.c9.io/build/src-noconflict/ext-language_tools.js"></script>
+    <script type="text/javascript" src="https://wurfl.io/wurfl.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="codeplayer.css">
+    <link href="https://ace.c9.io/api/resources/csses/ace_api.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" href="https://png.icons8.com/ios/1600/code.png">
+
+    <title>CodePlayer By Jishan</title>
+  </head>
+  <body>
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">CodePlayer</span>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8BCCF6;">
+      	<div style="margin: 0 auto;">
+	        <div class="btn-group" role="group">
+	          <button type="button" class="btn btn-outline-dark active" id="html">HTML</button>
+	          <button type="button" class="btn btn-outline-dark" id="js">JavaScript</button>
+	          <button type="button" class="btn btn-outline-dark" id="css">&nbspCSS&nbsp</button>
+	        </div>
+	        <button type="button" class="btn btn-outline-light" id="run"><i class="far fa-play-circle"></i> RUN</button>
+	    </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 1%;">
+      <div class="row no-gutters">
+        <div class="col-lg order-1" id="htmlpanel" style="margin-right: 0.5%; margin-bottom: 1%;">
+          <div id="htmltext" class="textarea"></div>
+        </div>
+        <div class="col-lg order-2 hidden" id="jspanel" style="margin-right: 0.5%; margin-bottom: 1%;">
+          <div id="jstext" class="textarea"></div>
+        </div>
+        <div class="col-lg order-3 hidden" id="csspanel" style="margin-right: 0.5%; margin-bottom: 1%;">
+          <div id="csstext" class="textarea"></div>
+        </div>
+        <div class="col-lg order-4" style="margin-right: 0.5%;">
+          <iframe id="outputpanel" frameborder="0" marginwidth="10"></iframe>
+        </div>
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert" id="alert">
+        <strong>Automatic Resizing Error!</strong> Turn your device in landscape mode and refresh the page.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="codeplayer.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
