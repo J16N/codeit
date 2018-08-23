@@ -97,6 +97,8 @@ function updateOutput() {
 	
 }
 
+updateOutput();
+
 $(".btn").click(function() {
 
 	$(this).button('toggle');
