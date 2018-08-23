@@ -39,18 +39,10 @@
     <div class="container-fluid" style="margin-top: 1%;">
       <div class="row no-gutters">
         <div class="col-lg order-1" id="htmlpanel" style="margin-right: 0.5%; margin-bottom: 1%;">
-          <div id="htmltext" class="textarea">&lt;p&gt;Canvas pane goes here:&lt;&sol;p&gt;<br>
-    &lt;canvas id=pane width=300 height=200&gt;&lt;&sol;canvas&gt;</div>
+          <div id="htmltext" class="textarea">&lt;p&gt;Canvas pane goes here:&lt;&sol;p&gt;<br>&lt;canvas id=pane width=300 height=200&gt;&lt;&sol;canvas&gt;</div>
         </div>
         <div class="col-lg order-2 hidden" id="jspanel" style="margin-right: 0.5%; margin-bottom: 1%;">
-          <div id="jstext" class="textarea">var canvas = document.getElementById('pane');<br>
-      var context = canvas.getContext('2d');<br><br>
-
-      context.fillStyle = 'rgb(250,0,0)';<br>
-      context.fillRect(10, 10, 55, 50);<br>
-
-      context.fillStyle = 'rgba(0, 0, 250, 0.5)';<br>
-      context.fillRect(30, 30, 55, 50);</div>
+          <div id="jstext" class="textarea">var canvas = document.getElementById('pane');<br>var context = canvas.getContext('2d');<br><br>context.fillStyle = 'rgb(250,0,0)';<br>context.fillRect(10, 10, 55, 50);<br><br>context.fillStyle = 'rgba(0, 0, 250, 0.5)';<br>context.fillRect(30, 30, 55, 50);</div>
         </div>
         <div class="col-lg order-3 hidden" id="csspanel" style="margin-right: 0.5%; margin-bottom: 1%;">
           <div id="csstext" class="textarea"></div>
