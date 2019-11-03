@@ -1,2 +1,2 @@
-# codeit
-A simple CodePlayer using HTML, JavaScript and CSS.
+# CodePlayer
+A responsive codeplayer built using HTML, Javascript, JQuery.
